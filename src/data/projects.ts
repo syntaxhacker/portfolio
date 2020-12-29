@@ -28,7 +28,7 @@ const data: workListTypes = [
 			},
 			{
 				name: "Website",
-				url: "https://stayhut.herokuapp.com/",
+				url: "https://stayhuut.herokuapp.com/",
 			},
 		],
 		image: "stayhut.png",

@@ -9,8 +9,20 @@ const Timelinedata: TimelineDataTypes = [
 	{
 		Timeline_heading: "Looking for Job",
 		Timeline_description:
-			"Currently , Im Looking for Full Stack Web Developer Job or Just Any Frontend Related Job Which Have Challenging Problems to Work On . ",
+			"Currently, Im Looking for Full Stack Web Developer Position  Having Challenging Problems to Work On . ",
 		Timeline_time: "Present",
+	},
+	{
+		Timeline_heading: "Joined Vsh Solutions",
+		Timeline_description:
+			"Worked on LVRG.ai which is an enterprise app built with react, redux saga, highcharts, postgresql.",
+		Timeline_time: "January 2021",
+	},
+	{
+		Timeline_heading: "Joined Vsh Solutions",
+		Timeline_description:
+			"Worked on LVRG.ai which is an enterprise app built with react, redux saga, highcharts, postgresql. ",
+		Timeline_time: "January 2021",
 	},
 	{
 		Timeline_heading: "Using Web Services",

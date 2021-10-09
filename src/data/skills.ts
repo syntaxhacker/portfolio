@@ -19,6 +19,6 @@ const tools = [
 	"figma",
 ];
 const platforms = ["heroku", "firebase", "vercel", "azure", "digitalOcean"];
-const databases = ["mongodb", "postgressql", "mysql", "prisma"];
+const databases = ["mongodb", "postgressql"  ];
 
 export { languages, tools, platforms, databases };

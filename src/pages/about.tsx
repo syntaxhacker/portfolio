@@ -45,7 +45,7 @@ export default () => (
 					</Title>
 					<Text>
 						I am a self-taught Full Stack JavaScript Developer . I
-						have been programming for 2 years with experience in
+						have been programming for 2+ years with experience in
 						developing and Learning Javascript, Typescript and React
 						apps. im A Big Space Fan too .
 					</Text>
@@ -59,18 +59,11 @@ export default () => (
 						</ALink>
 						{" 😝 "}
 						and{" "}
-						<ALink
-							href="https://github.com/trending"
-							target="_blank"
-						></ALink>{" "}
 						surf websites, explore trending open source projects ,
 						learning new technologies.
 					</Text>
 					<Text>
-						Another than that , I spend my time reading books,
-						watching youtube , learning languages like Python ,
-						cleaning my room , help in household work or just go for
-						a long walk
+						Other than that, I spend my time watching youtube, cleaning my room, help with household work or just go for a long walk
 					</Text>
 				</Box>
 				<hr />

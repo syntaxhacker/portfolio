@@ -9,6 +9,19 @@ interface workListTypes
 
 const data: workListTypes = [
 	{
+		name: "Google Meet Media Blocker (Extension)",
+		description: "This helps to prevent turning on/off video and audio frequently while joining a meet",
+		tags: [
+		],
+		links: [
+			{
+				name: "Add to Chrome",
+				url: "",
+			},
+		],
+		image: "gmeet-blocker.png",
+	},
+	{
 		name: "StayHut",
 		description: "Hotel Booking & Reservation Application",
 

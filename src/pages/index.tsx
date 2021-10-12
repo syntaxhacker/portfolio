@@ -26,9 +26,9 @@ const IndexPage = () => (
 					</Title>
 					<Text>
 						I am a Full Stack Web Developer from India.
-						<br />I like to mesh with various frontend and backend
-						technologies to learn , read technical articles or
-						simply watch space stuff .
+						<br /> I like to mesh with various frontend and backend
+						technologies to learn, read technical articles, or watch
+						youtube.
 					</Text>
 				</Col>
 				<Col width="70%">

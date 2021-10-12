@@ -11,13 +11,17 @@ const SEO = ({ description, lang, meta, title }: SEOProps) => {
 						title
 						description
 						author
+						image
+						siteUrl
 					}
 				}
 			}
 		`
 	);
 
+	const { siteUrl, image } = site.siteMetada;
 	const metaDescription = description || site.siteMetadata.description;
+	const metaImagePath = siteUrl + image;
 
 	return (
 		<Helmet
@@ -31,6 +35,7 @@ const SEO = ({ description, lang, meta, title }: SEOProps) => {
 					name: `description`,
 					content: metaDescription,
 				},
+
 				{
 					property: `og:title`,
 					content: title,
@@ -59,6 +64,14 @@ const SEO = ({ description, lang, meta, title }: SEOProps) => {
 					name: `twitter:description`,
 					content: metaDescription,
 				},
+				{
+					property: "og:image",
+					content: metaImagePath,
+				},
+				{
+					property: "twitter:image",
+					content: metaImagePath,
+				},
 			].concat(meta || [])}
 		/>
 	);
@@ -71,6 +84,7 @@ interface SEOProps {
 		{
 			name: string;
 			content: string;
+			image: string;
 		}
 	];
 	title: string;

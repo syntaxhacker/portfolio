@@ -19,7 +19,7 @@ const SEO = ({ description, lang, meta, title }: SEOProps) => {
 		`
 	);
 
-	const { siteUrl, image } = site.siteMetada;
+	const { siteUrl, image } = site.siteMetadata;
 	const metaDescription = description || site.siteMetadata.description;
 	const metaImagePath = siteUrl + image;
 

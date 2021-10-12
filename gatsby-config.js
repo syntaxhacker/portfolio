@@ -1,9 +1,11 @@
 module.exports = {
 	siteMetadata: {
 		title: `Rohit Jogi`,
-		description: `Portfolio`,
+		description: `Rohit Jogi's Portfolio Website`,
 		author: `@rohitj`,
-		siteUrl: `https://demo.com/`,
+		siteUrl: `https://festive-mclean-8b23b3.netlify.app`,
+		image: "/images/portfolio-seo-image.jpeg", // Path to your image you placed in the 'static' folder
+
 	},
 	plugins: [
 		`gatsby-plugin-typescript`,
@@ -49,7 +51,7 @@ module.exports = {
 			resolve: `gatsby-plugin-sitemap`,
 			options: {
 				output: `/sitemap.xml`,
-				exclude: ["/404/*"],
+				exclude: [ "/404/*" ],
 			},
 		},
 		{

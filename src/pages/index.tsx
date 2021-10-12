@@ -104,6 +104,7 @@ const IndexPage = () => (
 						</Row>
 					</Box>
 				))}
+				
 			</Box>
 		</Container>
 	</Layout>

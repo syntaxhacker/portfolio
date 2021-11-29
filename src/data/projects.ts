@@ -11,12 +11,13 @@ const data: workListTypes = [
 	{
 		name: "Google Meet Media Blocker (Extension)",
 		description:
-			"This helps to prevent turning on/off video and audio frequently while joining a meet. Currently, In review process by google extension team",
+			"This Extension helps to prevent toggling video/audio everytime while joining Gmeet.",
 		tags: [],
 		links: [
 			{
 				name: "Add to Chrome",
-				url: "",
+				url:
+					"https://chrome.google.com/webstore/detail/media-blocker-for-meeting/mgnnpillnbncjnckiladliiijioehobh",
 			},
 		],
 		image: "gmeet-blocker.png",
@@ -41,7 +42,7 @@ const data: workListTypes = [
 			},
 			{
 				name: "Website",
-				url: "https://stayhuut.herokuapp.com/",
+				url: "https://stayhut.herokuapp.com/",
 			},
 		],
 		image: "stayhut.png",

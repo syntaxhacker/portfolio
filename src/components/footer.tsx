@@ -1,9 +1,9 @@
 import React from "react";
-import { MarkGithub } from "styled-icons/octicons/MarkGithub";
-import { ExternalLink } from "styled-icons/remix-line/ExternalLink";
-import { Linkedin } from "styled-icons/boxicons-logos/Linkedin";
-import { Twitter } from "styled-icons/boxicons-logos/Twitter";
-import { StackOverflow } from "styled-icons/fa-brands/StackOverflow";
+import { MarkGithub } from "@styled-icons/octicons/MarkGithub";
+import { ExternalLink } from "@styled-icons/remix-line/ExternalLink";
+import { Linkedin } from "@styled-icons/boxicons-logos/Linkedin";
+import { Twitter } from "@styled-icons/boxicons-logos/Twitter";
+import { StackOverflow } from "@styled-icons/fa-brands/StackOverflow";
 import Box, { Image, Container } from "./box";
 import { Title } from "./text";
 import { BaseALink } from "./link";

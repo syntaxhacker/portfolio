@@ -5,7 +5,7 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import { Card, CardSection } from "../components/card";
 import { ALink } from "../components/link";
-import { FileDownload } from "styled-icons/fa-solid/FileDownload";
+import { FileDownload } from "@styled-icons/fa-solid/FileDownload";
 import { Timeline } from "../components/timeline";
 import { GetSvg } from "../components/getLogos";
 import { languages, tools, platforms, databases } from "../data/skills";
